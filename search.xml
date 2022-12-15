@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>体力查询帮助</title>
+      <link href="/2022/12/14/cookie-help/"/>
+      <url>/2022/12/14/cookie-help/</url>
+      
+        <content type="html"><![CDATA[<p> <font size=4.5 color=red>若非信任的机器人，请勿配置<br> 若非信任的机器人，请勿配置，风险自行承担<br> 本文由一只会狗叫的狗（3380719754）修改</font><br>配置cookie教程，配置成功机器人可以获取更多数据<br>可以<font color=red>查询体力，查询原石，原石统计，米游社签到</font><br>下面开始教程，有<font color=red>手机端，电脑端</font><br><img src="/img/%E7%BB%91%E5%AE%9Acookie/%E7%BB%91%E5%AE%9A%E5%90%8E%E6%95%88%E6%9E%9C1.png" alt="效果图"><br><img src="/img/%E7%BB%91%E5%AE%9Acookie/%E7%BB%91%E5%AE%9A%E5%90%8E%E6%95%88%E6%9E%9C2.png" alt="效果图">  </p><h1 id="安卓手机"><a href="#安卓手机" class="headerlink" title="安卓手机"></a>安卓手机</h1><p>下载安装<a href="https://viayoo.com/zh-cn/">Via浏览器</a>应用商店搜索也<br><img src="/img/%E7%BB%91%E5%AE%9Acookie/via.png" alt="via"><br>打开via浏览器，打开网页版米游社观测枢<br><a href="https://bbs.mihoyo.com/ys/strategy">https://bbs.mihoyo.com/ys/strategy</a><br>然后<font color=red><strong>登录米游社</strong></span></font>，<font color=red><strong>登录米游社</strong></font><br>登录后<font color=red><strong>点击左上角的按钮</strong></font><br><img src="/img/%E7%BB%91%E5%AE%9Acookie/%E5%AE%89%E5%8D%93cookie1.jpeg" alt="点击左上角的按钮"><br>点击<font color=red><strong>查看Cookies</strong></font><br><img src="/img/%E7%BB%91%E5%AE%9Acookie/%E5%AE%89%E5%8D%93cookie2.jpeg" alt="点击查看Cookies"><br>然后就会弹出弹窗，点击复制文本<br><img src="/img/%E7%BB%91%E5%AE%9Acookie/%E5%AE%89%E5%8D%93cookie3.jpeg" alt="点击复制文本"><br>最后将复制内容<font color=red>私聊</font>发送机器人，不能私聊可以加好友<br><img src="/img/%E7%BB%91%E5%AE%9Acookie/%E5%AE%89%E5%8D%93cookie4.jpeg" alt="私聊发送复制内容">  </p><h1 id="ios手机-疑似已失效"><a href="#ios手机-疑似已失效" class="headerlink" title="ios手机(疑似已失效)"></a>ios手机(疑似已失效)</h1><p>1.打开<a href="https://www.icloud.com/shortcuts/6b76ba13c7be40b69580169507f7034e">链接</a>获取快捷指令，点添加到快捷指令<br><a href="https://www.icloud.com/shortcuts/6b76ba13c7be40b69580169507f7034e">https://www.icloud.com/shortcuts/6b76ba13c7be40b69580169507f7034e</a><br><img src="/img/%E7%BB%91%E5%AE%9Acookie/%E8%8B%B9%E6%9E%9Ccookie1.png" alt="添加快捷指令"><br>2.在快捷指令App中点击这个快捷指令，按提示将会拉起 Safari打开米游社，然后<font color=red><strong>登录米游社</strong></font>。（也可以手动打开 Safari，登录米游社后往下继续操作。）<br>3.<font color=red>登录好之后</font>，点下面的“共享”按钮,拉到最下面,选“<font color=red>米游社Cookie获取</font>”<br><img src="/img/%E7%BB%91%E5%AE%9Acookie/%E8%8B%B9%E6%9E%9Ccookie2.png" alt="登录后操作"><br>4.然后会弹出是否复制到剪贴板，选择允许，cookie就会自动复制，<font color=red>私聊粘贴发送</font>给机器人，不能私聊可以加机器人好友。<br><img src="/img/%E7%BB%91%E5%AE%9Acookie/%E8%8B%B9%E6%9E%9Ccookie3.png" alt="允许复制">  </p><h1 id="电脑端Chrome"><a href="#电脑端Chrome" class="headerlink" title="电脑端Chrome"></a>电脑端Chrome</h1><p>Chrome浏览器，打开网页版米游社观测枢<br><a href="https://bbs.mihoyo.com/ys/strategy">https://bbs.mihoyo.com/ys/strategy</a><br>然后<font color=red><strong>登录米游社</strong></font>，<font color=red><strong>登录米游社</strong></font><br><img src="/img/%E7%BB%91%E5%AE%9Acookie/Chrome-Cookie1.png" alt="登录米游社"><br>按快捷键<font color=red>F12</font>，打开调试工具，选择console，中文叫控制台<br><img src="/img/%E7%BB%91%E5%AE%9Acookie/Chrome-Cookie2.png" alt="进入控制台，选择console"><br>在控制台输入下面代码，然后按<font color=red>Enter回车</font>  </p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="property">cookie</span>.<span class="title function_">replace</span>(<span class="string">&#x27;smid&#x27;</span>,<span class="string">&#x27;&#x27;</span>)</span><br></pre></td></tr></table></figure><p><img src="/img/%E7%BB%91%E5%AE%9Acookie/Chrome-Cookie3.png" alt="输入代码，复制内容"><br>最后将复制内容<font color=red>私聊</font>发送机器人，不能私聊可以加机器好友<br><img src="/img/%E7%BB%91%E5%AE%9Acookie/Chrome-Cookie4.png" alt="复制内容私聊发送机器人">  </p><h1 id="电脑端Edge"><a href="#电脑端Edge" class="headerlink" title="电脑端Edge"></a>电脑端Edge</h1><p>Edge浏览器，打开网页版米游社观测枢<br><a href="https://bbs.mihoyo.com/ys/strategy">https://bbs.mihoyo.com/ys/strategy</a><br>然后<font color=red>登录米游社</font>，<font color=red>登录米游社</font><br><img src="/img/%E7%BB%91%E5%AE%9Acookie/Edge-Cookie1.png" alt="登录米游社"><br>按<font color=red>F12</font>打开开发者工具<br><img src="/img/%E7%BB%91%E5%AE%9Acookie/Edge-Cookie2.png" alt="打开开发者工具"><br>选择<font color=red>控制台</font>，没有的按下右边箭头选择控制台<br><img src="/img/%E7%BB%91%E5%AE%9Acookie/Edge-Cookie3.png" alt="进入控制台"><br>在控制台输入下面代码，然后按<font color=red>Enter回车</font>  </p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="property">cookie</span>.<span class="title function_">replace</span>(<span class="string">&#x27;smid&#x27;</span>,<span class="string">&#x27;&#x27;</span>)</span><br></pre></td></tr></table></figure><p><img src="/img/%E7%BB%91%E5%AE%9Acookie/Edge-Cookie4.png" alt="输入代码，并复制内容"><br>最后将复制内容<font color-red>私聊</font>发送机器人，不能私聊可以加机器好友<br><img src="/img/%E7%BB%91%E5%AE%9Acookie/Edge-Cookie5.png" alt="私聊内容发送机器人">  </p><h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><ul><li><font size=4.5 color=red>若非信任的机器人，请勿配置，风险自行承担</font>  </li><li><font size=4.5 color=red>若非信任的机器人，请勿配置，风险自行承担</font>  </li><li><font size=4.5>登录过久的用户无法获取<font color=red>完整cookie</font>，可以退出重登，然后再获取，以支持签到功能</font>  </li><li><font size=4.5>获取完后退出登录cookie就会<font color=red>失效</font></font>  </li><li><font size=4.5>多账号的可以用无痕模式获取</font></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 云崽 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 云崽 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
