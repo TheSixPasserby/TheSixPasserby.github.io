@@ -1,0 +1,55 @@
+/* 深色模式基础样式 */
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* 深色模式下的导航菜单 */
+body.dark-theme header {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+body.dark-theme header nav {
+    background-color: #333;
+}
+
+body.dark-theme header .nav-menu a {
+    color: #e0e0e0;
+}
+
+body.dark-theme header .nav-menu a:hover {
+    background-color: #444;
+    color: #ffd700;
+}
+
+/* 深色模式下的主体内容 */
+body.dark-theme .content {
+    background-color: #222;
+    color: #e0e0e0;
+}
+
+/* 深色模式下的链接 */
+body.dark-theme .content ul li a {
+    color: #e0e0e0;
+}
+
+body.dark-theme .content ul li a:hover {
+    color: #ffd700; /* 黄色悬停效果 */
+}
+
+/* 深色模式下的侧边栏 */
+body.dark-theme .sidebar {
+    background-color: #333;
+}
+
+/* 深色模式下的侧边栏按钮 */
+body.dark-theme .toggle-sidebar {
+    color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+/* 深色模式下切换图标 */
+body.dark-theme .theme-toggle i {
+    transform: rotate(180deg); /* 切换图标 */
+}

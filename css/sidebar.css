@@ -1,0 +1,175 @@
+/* 侧边栏按钮 */
+.toggle-sidebar {
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px;
+    margin-right: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 深色模式下的侧边栏按钮 */
+body.dark-theme .toggle-sidebar {
+    color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+/* 旋转 90 度的按钮（展开时） */
+body.sidebar-open .toggle-sidebar {
+    transform: rotate(90deg); /* 旋转 90 度 */
+    transition: transform 0.3s ease;
+}
+
+/* 侧边栏收起时 */
+.sidebar.collapsed {
+    width: 60px; /* 完全收起时的宽度 */
+}
+
+/* 侧边栏展开时 */
+body.sidebar-open .sidebar {
+    width: 220px; /* 展开时的宽度 */
+}
+
+/* 侧边栏折叠时的 h2 标签隐藏 */
+.sidebar.collapsed h2 {
+    display: none;
+}
+
+/* 侧边栏折叠时的链接样式 */
+.sidebar.collapsed ul li a {
+    padding: 5px 10px;
+    text-align: center; /* 链接居中 */
+}
+
+/* 侧边栏展开时链接样式 */
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, padding-left 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+    padding-left: 20px; /* 添加文字缩进效果 */
+}
+
+/* 侧边栏 */
+.sidebar-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    background-color: #444;
+    color: #fff;
+    width: 220px;
+    min-width: 60px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+/* 深色模式下的侧边栏 */
+body.dark-theme .sidebar {
+    background-color: #333;
+}
+
+/* 侧边栏折叠 */
+.sidebar.collapsed {
+    width: 60px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    display: block;
+}
+
+.sidebar.collapsed h2 {
+    display: none;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, padding-left 0.3s ease;
+}
+
+/* 在展开时显示文本 */
+.sidebar ul li a span {
+    display: inline; /* 显示文本 */
+}
+
+/* 图标样式 */
+.sidebar i {
+    font-size: 20px;
+    margin-right: 10px; /* 图标与文本之间的间距 */
+}
+
+/* 收起状态时 */
+.sidebar.collapsed li a {
+    justify-content: center; /* 文本居中 */
+}
+
+/* 收起时隐藏文本 */
+.sidebar.collapsed li a span {
+    display: none; /* 隐藏文本 */
+}
+
+/* 搜索框样式 */
+.sidebar .search-box {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar .search-box input {
+    flex: 1;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.sidebar .search-box button {
+    padding: 5px 10px;
+    background-color: #666;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar.collapsed .search-box {
+    display: none;
+}

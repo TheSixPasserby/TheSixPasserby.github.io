@@ -1,0 +1,46 @@
+/* 通用样式 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;  /* 默认浅色模式背景 */
+    color: #000;  /* 默认文字颜色 */
+    transition: background-color 0.3s, color 0.3s; /* 平滑过渡 */
+}
+
+/* 深色模式基础样式 */
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* 主体区域 */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* 深色模式下的主体内容 */
+body.dark-theme .content {
+    background-color: #222;
+    color: #e0e0e0;
+}
+
+/* 深色模式下的链接 */
+body.dark-theme .content ul li a {
+    color: #e0e0e0;
+}
+
+body.dark-theme .content ul li a:hover {
+    color: #ffd700; /* 黄色悬停效果 */
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}

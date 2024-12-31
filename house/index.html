@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>楼盘点评 - 爱家房产网</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/buttons.css">
+    <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="module" src="/js/script.js"></script>
+    <script type="module" src="/js/card.js"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <header>
+        <div class="container">
+            <button class="toggle-sidebar"><i class="fas fa-bars"></i></button>
+            <h1 class="logo"><a href="/">爱家房产网</a></h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="/">首页</a></li>
+                    <li><a href="/news">新闻中心</a></li>
+                    <li><a href="#" onclick='alert("没做");'>地产观察</a></li>
+                    <li><a href="/house">楼盘点评</a></li>
+                    <li><a href="#" onclick='alert("没做");'>热点追踪</a></li>
+                    <li><a href="#" onclick='alert("没做");'>精彩生活</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+        </div>
+    </header>
+
+    <!-- 主体内容 -->
+    <main>
+        <div class="sidebar-container">
+            <aside class="sidebar">
+                <ul>
+                    <li><a href="/news"><i class="fas fa-newspaper"></i><span>新闻中心</span></a></li>
+                    <li><a href="#" onclick='alert("没做");'><i class="fas fa-eye"></i><span>地产观察</span></a></li>
+                    <li><a href="/house"><i class="fas fa-home"></i><span>楼盘点评</span></a></li>
+                    <li><a href="#" onclick='alert("没做");'><i class="fas fa-location-arrow"></i><span>热点追踪</span></a></li>
+                    <li><a href="#" onclick='alert("没做");'><i class="fas fa-life-ring"></i><span>精彩生活</span></a></li>
+                </ul>
+            </aside>
+            <div class="content">
+                <section>
+                    <h2>楼盘点评</h2>
+                    <p>懒得去下载图片，我就直接放网图了，所以/img 里是没有相关图片文件的</p>
+                    <p>并没有制作点进去后的效果，卡片也是粗制滥造的，部分由gpt协助</p>
+                    <div class="card-container">
+                        <div class="card">
+                            <!-- 懒得去下载图片，我就直接放网图了 -->
+                            <div class="card-image" style="background-image: url(https://imgs.699pic.com/images/500/545/039.jpg!list1x.v2);"></div>
+                            <div class="card-content">
+                                <h3>1</h3>
+                                <p>描述</p>
+                                <button class="view-details">查看详情</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNDmpLB8_jOFwbjHGWXDpkuDCn9f0V7vTcUA&s');"></div>
+                            <div class="card-content">
+                                <h3>2</h3>
+                                <p>描述。</p>
+                                <button class="view-details">查看详情</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyXo6D2FUyWd7kehdEUJL37FeHlpwNrTLE5w&s');"></div>
+                            <div class="card-content">
+                                <h3>3</h3>
+                                <p>描述</p>
+                                <button class="view-details">查看详情</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright © 2024 爱家房产网 Corporation All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
